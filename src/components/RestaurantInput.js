@@ -59,8 +59,7 @@ const mapDispatchToProps = dispatch => {
 
 const mapStateToProps = state => {
   return {
-    name: state.name,
-    location: state.location
+    state
   }
 }
 
